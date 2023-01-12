@@ -3,7 +3,7 @@ syntax = "proto3";
 package stock;
 
 service StockService {
-  rpc CreateOrder (CreateStockRequest) returns (CreateStockResponse) {}
+  rpc CreateStock (CreateStockRequest) returns (CreateStockResponse) {}
 }
 
 message CreateStockRequest {
